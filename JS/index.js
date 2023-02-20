@@ -32,3 +32,4 @@ const renderAllHomes = () => {
   homeSection.innerHTML = "";
   homeArr.forEach((home) => home.render());
 };
+
