@@ -5,23 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap"
+      rel="stylesheet"
+    />
     <title>Real Estate App</title>
   </head>
   <body>
     <div id="navBar">
-      <a href="About.html">About</a>
-      <a href="Contacts.html">Contacts</a>
+      <a href="About.html" class="navBarLink">About</a>
+      <a href="Contacts.html" class="navBarLink">Contacts</a>
+      <a href="index.html" class="navBarLink">Home</a>
     </div>
-    <div id="inputSection">
-      <input id="address" placeholder="Address" />
-      <input id="property-type" placeholder="Property Type" />
-      <input id="state" placeholder="State" />
-      <input id="price" placeholder="Price" />
-      <input id="pet-friendly" placeholder="Pet-Friendly?" />
-      <button id="addBtn">Add Home to Listing</button>
-    </div>
-    <div id="homeSection"></div>
-    <div id="footer">footer: add social media buttons here</div>
+    <main>
+      <h2>Cool Real Estate Company</h2>
+      <img id="houseImg" src="images/house.jpg" />
+      <div id="inputSection">
+        <p id="textCard">Add New Listing Card:</p>
+        <div id="inputBarsDiv">
+          <input id="address" class="inputBars" placeholder="Address" />
+          <input
+            id="property-type"
+            class="inputBars"
+            placeholder="Property Type"
+          />
+          <input id="state" class="inputBars" placeholder="State" />
+          <input id="price" class="inputBars" placeholder="Price" />
+          <input
+            id="pet-friendly"
+            class="inputBars"
+            placeholder="Pet-Friendly?"
+          />
+          <button id="addBtn">Add Home</button>
+        </div>
+      </div>
+      <div id="homeSection"></div>
+    </main>
+    <!-- <div id="footer">footer: add social media buttons here</div> -->
     <script src="JS\index.js" defer></script>
     <script src="JS\home.js" defer></script>
   </body>

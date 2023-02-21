@@ -1,0 +1,109 @@
+html {
+  background-color: rgb(201, 201, 250);
+}
+
+main {
+  margin-top: 75px;
+}
+
+h2 {
+  font-size: 40pt;
+  font-family: "Lily Script One", cursive;
+  color: rgb(27, 6, 150);
+}
+
+#navBar {
+  background-color: rgb(92, 104, 175);
+  height: 45px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.637);
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  width: 99%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.navBarLink {
+  background-color: rgb(173, 173, 223);
+  color: rgba(10, 10, 238, 0.767);
+  box-shadow: 1px 1px 1px 1px;
+  height: 60%;
+  padding: 4px;
+  margin-right: 5px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navBarLink:hover {
+  background-color: aliceblue;
+}
+.navBarLink:active {
+  background-color: rgb(243, 220, 179);
+}
+#houseImg {
+  height: 200px;
+  box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.705);
+  position: absolute;
+  right: 50px;
+  top: 160px;
+  border-radius: 62px;
+  background: #948491;
+  box-shadow: 33px 33px 51px #5c63c5, -33px -33px 51px #0855b993;
+}
+
+#inputSection {
+  /* border: 1px solid black; */
+  /* background-color: rgb(159, 179, 233); */
+  /* border-radius: 10px; */
+  border-radius: 40px;
+  background: hsla(9, 27%, 85%, 0.659);
+  box-shadow: 33px 33px 51px #5c63c5, -33px -33px 51px #0855b993;
+  padding: 20px;
+  width: 40%;
+  /* text-align: center; */
+  position: relative;
+  left: 80px;
+}
+
+#inputBarsDiv {
+  margin-top: 20px;
+}
+
+.inputBars {
+  height: 15px;
+  margin: 2px;
+}
+
+#textCard {
+  background-color: aliceblue;
+  border-radius: 10px;
+  font-size: 16pt;
+  color: ;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+
+#homeSection {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.homeCards {
+  flex-basis: 20%;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  margin: 5px;
+  width: 190px;
+  background: hsla(9, 27%, 85%, 0.659);
+  border-radius: 10px;
+  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}

@@ -83,3 +83,4 @@ class Home {
     homeSectionDiv.append(homeCard);
   }
 }
+
